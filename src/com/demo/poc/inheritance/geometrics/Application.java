@@ -12,11 +12,17 @@ public class Application {
     double squareAreaResult = square.calculateArea();
     System.out.println("El area del cuadrado es: " + squareAreaResult);
 
+    square.printMessage();
+
+    System.out.println("########################");
+
     Triangle triangle = new Triangle();
     triangle.setBase(10);
     triangle.setHeight(5);
 
     double triangleAreaResult = triangle.calculateArea();
     System.out.println("El area del triángulo es: " + triangleAreaResult);
+
+    triangle.printMessage();
   }
 }

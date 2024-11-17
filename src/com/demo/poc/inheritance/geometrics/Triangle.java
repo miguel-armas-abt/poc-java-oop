@@ -25,4 +25,9 @@ public class Triangle extends GeometricFigure {
   double calculateArea() {
     return this.base * this.height / 2;
   }
+
+  @Override
+  void printMessage() {
+    System.out.println("Hola mundo desde Triangle");
+  }
 }

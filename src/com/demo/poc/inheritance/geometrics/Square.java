@@ -17,4 +17,8 @@ public class Square extends GeometricFigure{
     return this.length * this.length;
   }
 
+  @Override
+  void printMessage() {
+    System.out.println("Hola mundo desde Square");
+  }
 }

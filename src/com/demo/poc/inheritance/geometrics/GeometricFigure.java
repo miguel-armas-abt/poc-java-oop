@@ -7,4 +7,9 @@ package com.demo.poc.inheritance.geometrics;
 public abstract class GeometricFigure {
 
   abstract double calculateArea();
+
+  void printMessage() {
+    System.out.println("Hello world from GeometricFigure");
+  }
+
 }
